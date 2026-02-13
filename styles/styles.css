@@ -196,9 +196,9 @@ main {
 footer {
     background-color: #FFF8F3;
     display: flex;
-    justify-content: center;
-    gap: 50px
-    /* padding: 130px 230px; */
+    /* justify-content: center; */
+    gap: 50px;
+    padding: 130px 230px;
 }
 
 .social-container {
