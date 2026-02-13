@@ -1,0 +1,232 @@
+/* font */
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared style */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-1 {
+    color: #181818;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.section-title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.section-desc {
+    font-size: 20px;
+}
+
+/* header */
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+
+}
+
+/* Nav Style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+nav h3 {
+    font-size: 45px;
+    font-weight: 800px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+
+}
+
+/* Banner Greetings */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content h4 {
+    font-size: 45px;
+}
+
+.banner-content h2 {
+    font-size: 85px;
+}
+
+.banner-pic {
+    width: 584px;
+}
+
+/* About Me Main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    margin-top: 130px;
+    border-radius: 10px;
+}
+
+.bio-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* skills section */
+.skill-section {
+    margin-top: 130px;
+}
+
+.pp,
+.hh {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+}
+
+.skill-card {
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* My Resume Section */
+.resume {
+    margin-top: 130px;
+}
+
+.H3 {
+    text-align: center;
+}
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.experice-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.expereice-sub-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.experience-description {
+    font-size: 16px;
+    color: #757575;
+}
+
+.resume-container {
+    display: flex;
+    gap: 30px;
+}
+
+.btn-container {
+    /* display: flex;
+    justify-content: center; or */
+    text-align: center;
+
+}
+
+.btn {
+    margin: 50px 0px 113px 0;
+}
+
+/* footer */
+footer {
+    background-color: #FFF8F3;
+    display: flex;
+    /* justify-content: center;
+    gap: 50px */
+    padding: 130px 230px;
+}
+
+.social-container {
+    display: flex;
+    gap: 10px;
+
+}
+
+.footer-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.footer-desc {
+    font-size: 16px;
+    color: #474747;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 20px;
+
+}
