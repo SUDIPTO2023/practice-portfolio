@@ -9,16 +9,22 @@
 }
 
 /* shared style */
+button:hover{
+ border: 2px solid #F97316;
+ background: transparent;
+color: #F97316;
+ box-shadow: 0 0 15px #F97316;
+}
 .text-primary {
     color: #FD6E0A;
 }
 
 .dark-1 {
-    color: #181818;
+    color: white;
 }
 
 .dark-2 {
-    color: #474747;
+    color: whitesmoke;
 }
 
 .dark-3 {
@@ -44,13 +50,18 @@
 .section-desc {
     font-size: 20px;
 }
-
+/*  */
+body{
+    background-color:#111827 ;
+}
 /* header */
 .header {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    background-color: #FFF8F3;
+    /* background-color: #FFF8F3; */
+    background-color:#0F172A;
+;
 
 }
 
@@ -65,6 +76,7 @@ nav {
 nav h3 {
     font-size: 45px;
     font-weight: 800px;
+    color: #FFF8F3;
 }
 
 nav ul li {
@@ -108,14 +120,16 @@ nav ul {
 main {
     max-width: 1140px;
     margin: 0 auto;
+   
 }
 
 .about {
     text-align: center;
-    background-color: #FFF8F3;
+    background-color:#1F2937;
     padding: 130px 150px;
     margin-top: 130px;
     border-radius: 10px;
+    color: #FFF8F3;
 }
 
 .bio-info {
@@ -132,6 +146,7 @@ main {
 .pp,
 .hh {
     text-align: center;
+    color: aliceblue;
 }
 
 .skills-container {
@@ -141,7 +156,8 @@ main {
 
 .skill-card {
     padding: 30px;
-    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 6px 10px 2px #FD6E0A;
+    color: whitesmoke;
 }
 
 /* My Resume Section */
@@ -151,33 +167,37 @@ main {
 
 .H3 {
     text-align: center;
+    color: aliceblue;
 }
 
 .resume-column-title {
     font-size: 30px;
     font-weight: bold;
-    color: #474747;
+    color:white;
+    text-align: center;
 }
 
 .experice-title {
     font-size: 25px;
     font-weight: bold;
-    color: #474747;
+    color: #fde7e7;
 }
 
 .expereice-sub-title {
     font-size: 20px;
     font-weight: bold;
-    color: #474747;
+    color: whitesmoke;
 }
 
 .experience-description {
     font-size: 16px;
-    color: #757575;
+    color: rgb(218, 214, 205);
 }
 
 .resume-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
@@ -194,11 +214,12 @@ main {
 
 /* footer */
 footer {
-    background-color: #FFF8F3;
+    background-color:  #0B1220;
     display: flex;
     /* justify-content: center; */
     gap: 50px;
     padding: 130px 230px;
+    color: #F1F5F9;
 }
 
 .social-container {
@@ -214,7 +235,7 @@ footer {
 
 .footer-desc {
     font-size: 16px;
-    color: #474747;
+    color: #F1F5F9;
 }
 
 footer input[type="text"],
